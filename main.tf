@@ -34,7 +34,7 @@ resource "aws_instance" "app_server" {
   vpc_security_group_ids = [aws_security_group.main.id]
 
   tags = {
-    Name = "swinnytodd_Ec2"
+    Name = "swinnytodd1_Ec2"
   }
   connection {
     type    = "ssh"
